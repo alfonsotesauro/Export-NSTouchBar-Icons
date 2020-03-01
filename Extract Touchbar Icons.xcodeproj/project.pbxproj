@@ -16,6 +16,7 @@
 		D762461D240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762461C240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m */; };
 		D762462B240B682B009A1AEF /* AppleDeveloper.txt in Resources */ = {isa = PBXBuildFile; fileRef = D762462A240B682B009A1AEF /* AppleDeveloper.txt */; };
 		D7624650240B7C23009A1AEF /* TouchBarIconExtractManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D7624652240C21AA009A1AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7624651240C21AA009A1AEF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D762462A240B682B009A1AEF /* AppleDeveloper.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppleDeveloper.txt; sourceTree = "<group>"; };
 		D762464E240B7C23009A1AEF /* TouchBarIconExtractManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarIconExtractManager.h; sourceTree = "<group>"; };
 		D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBarIconExtractManager.m; sourceTree = "<group>"; };
+		D7624651240C21AA009A1AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		D76245F9240B6802009A1AEF /* Extract Touchbar Icons */ = {
 			isa = PBXGroup;
 			children = (
+				D7624651240C21AA009A1AEF /* README.md */,
 				D76245FA240B6802009A1AEF /* AppDelegate.h */,
 				D76245FB240B6802009A1AEF /* AppDelegate.m */,
 				D76245FD240B6802009A1AEF /* ViewController.h */,
@@ -244,6 +247,7 @@
 			files = (
 				D7624601240B6805009A1AEF /* Assets.xcassets in Resources */,
 				D7624604240B6805009A1AEF /* Main.storyboard in Resources */,
+				D7624652240C21AA009A1AEF /* README.md in Resources */,
 				D762462B240B682B009A1AEF /* AppleDeveloper.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
