@@ -38,7 +38,7 @@ BOOL CGImageWriteToFile(CGImageRef image, NSString *path);
     // Easier to read.
     id cgImageSnapshotRep = [representations firstObject];
     
-    // we cast the pointer to any pointer with 4 as size, like for example a long.
+    // we cast the pointer to any pointer, like for example a long.
     long *corresponding = (long *)cgImageSnapshotRep;
     
     // During debugging, I discovered that the address of the cgImage we are
