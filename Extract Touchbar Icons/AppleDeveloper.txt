@@ -1,0 +1,76 @@
+Icon    Icon name    Function    AppKit symbol
+Add Detail    Displays additional detail for an item.    touchBarAddDetailTemplate
+Add    Creates a new item.    touchBarAddTemplate
+Alarm    Sets or displays an alarm.    touchBarAlarmTemplate
+Audio Input Mute    Mutes audio input or denotes that audio input is muted.    touchBarAudioInputMuteTemplate
+Audio Input    Denotes audio input.    touchBarAudioInputTemplate
+Audio Output Mute    Mutes audio output or denotes that audio output is muted.    touchBarAudioOutputMuteTemplate
+Audio Output Volume High    Sets the audio output volume to high or denotes that the audio output volume is set to high.    touchBarAudioOutputVolumeHighTemplate
+Audio Output Volume Low    Sets the audio output volume to low or denotes that the audio output volume is set to low.    touchBarAudioOutputVolumeLowTemplate
+Audio Output Volume Medium    Sets the audio output volume to medium or denotes that the audio output volume is set to medium.    touchBarAudioOutputVolumeMediumTemplate
+Audio Output Volume Off    Turns off audio output or denotes that audio output is turned off.    touchBarAudioOutputVolumeOffTemplate
+Bookmarks    Shows app-specific bookmarks.    touchBarBookmarksTemplate
+Color Picker Fill    Shows a color picker so the user can select a fill color.    touchBarColorPickerFill
+Color Picker Font    Shows a color picker so the user can select a text color.    touchBarColorPickerFont
+Color Picker Stroke    Shows a color picker so the user can select a stroke color.    touchBarColorPickerStroke
+Communication Audio    Initiates or denotes audio communication.    touchBarCommunicationAudioTemplate
+Communication Video    Initiates or denotes video communication.    touchBarCommunicationVideoTemplate
+Compose    Opens a new document or view in edit mode.    touchBarComposeTemplate
+Delete    Deletes the current or selected item.    touchBarDeleteTemplate
+Download    Downloads an item.    touchBarDownloadTemplate
+Enter Full Screen    Enters full screen mode.    touchBarEnterFullScreenTemplate
+Exit Full Screen    Exits full screen mode.    touchBarExitFullScreenTemplate
+Fast Forward    Fast-forwards through media playback or slides.    touchBarFastForwardTemplate
+Folder Copy To    Copies an item to a destination.    touchBarFolderCopyToTemplate
+Folder Move To    Moves an item to a new destination.    touchBarFolderMoveToTemplate
+Folder    Opens or represents a folder.    touchBarFolderTemplate
+Get Info    Displays additional information about an item.    touchBarGetInfoTemplate
+Go Back    Returns to the previous screen or location.    touchBarGoBackTemplate
+Go Down    Moves to the next vertical item.    touchBarGoDownTemplate
+Go Forward    Moves to the next screen or location.    touchBarGoForwardTemplate
+Go Up    Moves to the previous vertical item.    touchBarGoUpTemplate
+History    Displays historical information, such as recent downloads.    touchBarHistoryTemplate
+Icon View    Displays items in an icon view.    touchBarIconViewTemplate
+List View    Displays items in a list view.    touchBarListViewTemplate
+Mail    Creates an email message.    touchBarMailTemplate
+New Folder    Creates a new folder.    touchBarNewFolderTemplate
+New Message    Creates a new message or denotes the use of messaging.    touchBarNewMessageTemplate
+Open In Browser    Opens an item in the user’s browser.    touchBarOpenInBrowserTemplate
+Pause    Pauses media playback or slides. Always store the current location when pausing, so playback can resume later.    touchBarPauseTemplate
+Play Pause    Toggles between playing and pausing media or slides.    touchBarPlayPauseTemplate
+Play    Begins or resumes media playback or slides.    touchBarPlayTemplate
+Quick Look    Opens an item in Quick Look.    touchBarQuickLookTemplate
+Record Start    Begins recording.    touchBarRecordStartTemplate
+Record Stop    Stops recording or stops media playback or slides.    touchBarRecordStopTemplate
+Refresh    Refreshes data onscreen.    touchBarRefreshTemplate
+Rewind    Moves backwards through media playback or slides.    touchBarRewindTemplate
+Rotate Left    Rotates an item to the left.    touchBarRotateLeftTemplate
+Rotate Right    Rotates an item to the right.    touchBarRotateRightTemplate
+Search    Displays a search field or initiates a search.    touchBarSearchTemplate
+Share    Shares content with others or to social media.    touchBarShareTemplate
+Sidebar    Displays a sidebar in the current view.    touchBarSidebarTemplate
+Skip Ahead 15 Seconds    Skips 15 seconds ahead during media playback.    touchBarSkipAhead15SecondsTemplate
+Skip Ahead 30 Seconds    Skips 30 seconds ahead during media playback.    touchBarSkipAhead30SecondsTemplate
+Skip Ahead    Skips to the next chapter or location during media playback.    touchBarSkipAheadTemplate
+Skip Back 15 Seconds    Skips 15 seconds back during media playback.    touchBarSkipBack15SecondsTemplate
+Skip Back 30 Seconds    Skips 30 seconds back during media playback.    touchBarSkipBack30SecondsTemplate
+Skip Back    Skips to the previous chapter or location during media playback.    touchBarSkipBackTemplate
+Skip To End    Skips to the end during media playback.    touchBarSkipToEndTemplate
+Skip To Start    Skips to the beginning during media playback.    touchBarSkipToStartTemplate
+Slideshow    Starts a slideshow.    touchBarSlideshowTemplate
+Tag    Applies a tag to an item.    touchBarTagIconTemplate
+Text Bold    Makes text bold.    touchBarTextBoldTemplate
+Text Box    Inserts a text box.    touchBarTextBoxTemplate
+Text Center Align    Center aligns text.    touchBarTextCenterAlignTemplate
+Text Italic    Italicizes text.    touchBarTextItalicTemplate
+Text Justified Align    Justifies text, aligning it to both the left and right.    touchBarTextJustifiedAlignTemplate
+Text Left Align    Left-aligns text.    touchBarTextLeftAlignTemplate
+Text List    Inserts a list or converts text to list form.    touchBarTextListTemplate
+Text Right Align    Right-aligns text.    touchBarTextRightAlignTemplate
+Text Strikethrough    Applies a strikethrough to text.    touchBarTextStrikethroughTemplate
+Text Underline    Underlines text.    touchBarTextUnderlineTemplate
+User Add    Creates a new user.    touchBarUserAddTemplate
+User Group    Shows or represents a group of users.    touchBarUserGroupTemplate
+User    Shows or represents user information.    touchBarUserTemplate
+Volume Down    Reduces the volume.    touchBarVolumeDownTemplate
+Volume Up    Increases the volume.    touchBarVolumeUpTemplate

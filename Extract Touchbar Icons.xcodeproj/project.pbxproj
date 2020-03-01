@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76245FC240B6802009A1AEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D76245FB240B6802009A1AEF /* AppDelegate.m */; };
+		D76245FF240B6802009A1AEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D76245FE240B6802009A1AEF /* ViewController.m */; };
+		D7624601240B6805009A1AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7624600240B6805009A1AEF /* Assets.xcassets */; };
+		D7624604240B6805009A1AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7624602240B6805009A1AEF /* Main.storyboard */; };
+		D7624607240B6805009A1AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7624606240B6805009A1AEF /* main.m */; };
+		D7624612240B6805009A1AEF /* Extract_Touchbar_IconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7624611240B6805009A1AEF /* Extract_Touchbar_IconsTests.m */; };
+		D762461D240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762461C240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m */; };
+		D762462B240B682B009A1AEF /* AppleDeveloper.txt in Resources */ = {isa = PBXBuildFile; fileRef = D762462A240B682B009A1AEF /* AppleDeveloper.txt */; };
+		D7624650240B7C23009A1AEF /* TouchBarIconExtractManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D762460E240B6805009A1AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D76245EF240B6802009A1AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76245F6240B6802009A1AEF;
+			remoteInfo = "Extract Touchbar Icons";
+		};
+		D7624619240B6805009A1AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D76245EF240B6802009A1AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D76245F6240B6802009A1AEF;
+			remoteInfo = "Extract Touchbar Icons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D76245F7240B6802009A1AEF /* Extract Touchbar Icons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extract Touchbar Icons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76245FA240B6802009A1AEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D76245FB240B6802009A1AEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D76245FD240B6802009A1AEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D76245FE240B6802009A1AEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7624600240B6805009A1AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7624603240B6805009A1AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7624605240B6805009A1AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7624606240B6805009A1AEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7624608240B6805009A1AEF /* Extract_Touchbar_Icons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extract_Touchbar_Icons.entitlements; sourceTree = "<group>"; };
+		D762460D240B6805009A1AEF /* Extract Touchbar IconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extract Touchbar IconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7624611240B6805009A1AEF /* Extract_Touchbar_IconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extract_Touchbar_IconsTests.m; sourceTree = "<group>"; };
+		D7624613240B6805009A1AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7624618240B6805009A1AEF /* Extract Touchbar IconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extract Touchbar IconsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D762461C240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Extract_Touchbar_IconsUITests.m; sourceTree = "<group>"; };
+		D762461E240B6805009A1AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D762462A240B682B009A1AEF /* AppleDeveloper.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppleDeveloper.txt; sourceTree = "<group>"; };
+		D762464E240B7C23009A1AEF /* TouchBarIconExtractManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarIconExtractManager.h; sourceTree = "<group>"; };
+		D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBarIconExtractManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D76245F4240B6802009A1AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D762460A240B6805009A1AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7624615240B6805009A1AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D76245EE240B6802009A1AEF = {
+			isa = PBXGroup;
+			children = (
+				D76245F9240B6802009A1AEF /* Extract Touchbar Icons */,
+				D7624610240B6805009A1AEF /* Extract Touchbar IconsTests */,
+				D762461B240B6805009A1AEF /* Extract Touchbar IconsUITests */,
+				D76245F8240B6802009A1AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D76245F8240B6802009A1AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D76245F7240B6802009A1AEF /* Extract Touchbar Icons.app */,
+				D762460D240B6805009A1AEF /* Extract Touchbar IconsTests.xctest */,
+				D7624618240B6805009A1AEF /* Extract Touchbar IconsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D76245F9240B6802009A1AEF /* Extract Touchbar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D76245FA240B6802009A1AEF /* AppDelegate.h */,
+				D76245FB240B6802009A1AEF /* AppDelegate.m */,
+				D76245FD240B6802009A1AEF /* ViewController.h */,
+				D76245FE240B6802009A1AEF /* ViewController.m */,
+				D762464E240B7C23009A1AEF /* TouchBarIconExtractManager.h */,
+				D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */,
+				D7624600240B6805009A1AEF /* Assets.xcassets */,
+				D762462A240B682B009A1AEF /* AppleDeveloper.txt */,
+				D7624602240B6805009A1AEF /* Main.storyboard */,
+				D7624605240B6805009A1AEF /* Info.plist */,
+				D7624606240B6805009A1AEF /* main.m */,
+				D7624608240B6805009A1AEF /* Extract_Touchbar_Icons.entitlements */,
+			);
+			path = "Extract Touchbar Icons";
+			sourceTree = "<group>";
+		};
+		D7624610240B6805009A1AEF /* Extract Touchbar IconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7624611240B6805009A1AEF /* Extract_Touchbar_IconsTests.m */,
+				D7624613240B6805009A1AEF /* Info.plist */,
+			);
+			path = "Extract Touchbar IconsTests";
+			sourceTree = "<group>";
+		};
+		D762461B240B6805009A1AEF /* Extract Touchbar IconsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D762461C240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m */,
+				D762461E240B6805009A1AEF /* Info.plist */,
+			);
+			path = "Extract Touchbar IconsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D76245F6240B6802009A1AEF /* Extract Touchbar Icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7624621240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar Icons" */;
+			buildPhases = (
+				D76245F3240B6802009A1AEF /* Sources */,
+				D76245F4240B6802009A1AEF /* Frameworks */,
+				D76245F5240B6802009A1AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extract Touchbar Icons";
+			productName = "Extract Touchbar Icons";
+			productReference = D76245F7240B6802009A1AEF /* Extract Touchbar Icons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D762460C240B6805009A1AEF /* Extract Touchbar IconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7624624240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar IconsTests" */;
+			buildPhases = (
+				D7624609240B6805009A1AEF /* Sources */,
+				D762460A240B6805009A1AEF /* Frameworks */,
+				D762460B240B6805009A1AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D762460F240B6805009A1AEF /* PBXTargetDependency */,
+			);
+			name = "Extract Touchbar IconsTests";
+			productName = "Extract Touchbar IconsTests";
+			productReference = D762460D240B6805009A1AEF /* Extract Touchbar IconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7624617240B6805009A1AEF /* Extract Touchbar IconsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7624627240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar IconsUITests" */;
+			buildPhases = (
+				D7624614240B6805009A1AEF /* Sources */,
+				D7624615240B6805009A1AEF /* Frameworks */,
+				D7624616240B6805009A1AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D762461A240B6805009A1AEF /* PBXTargetDependency */,
+			);
+			name = "Extract Touchbar IconsUITests";
+			productName = "Extract Touchbar IconsUITests";
+			productReference = D7624618240B6805009A1AEF /* Extract Touchbar IconsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D76245EF240B6802009A1AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Alfonso Maria Tesauro";
+				TargetAttributes = {
+					D76245F6240B6802009A1AEF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D762460C240B6805009A1AEF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D76245F6240B6802009A1AEF;
+					};
+					D7624617240B6805009A1AEF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D76245F6240B6802009A1AEF;
+					};
+				};
+			};
+			buildConfigurationList = D76245F2240B6802009A1AEF /* Build configuration list for PBXProject "Extract Touchbar Icons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D76245EE240B6802009A1AEF;
+			productRefGroup = D76245F8240B6802009A1AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D76245F6240B6802009A1AEF /* Extract Touchbar Icons */,
+				D762460C240B6805009A1AEF /* Extract Touchbar IconsTests */,
+				D7624617240B6805009A1AEF /* Extract Touchbar IconsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D76245F5240B6802009A1AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7624601240B6805009A1AEF /* Assets.xcassets in Resources */,
+				D7624604240B6805009A1AEF /* Main.storyboard in Resources */,
+				D762462B240B682B009A1AEF /* AppleDeveloper.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D762460B240B6805009A1AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7624616240B6805009A1AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D76245F3240B6802009A1AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76245FF240B6802009A1AEF /* ViewController.m in Sources */,
+				D7624607240B6805009A1AEF /* main.m in Sources */,
+				D7624650240B7C23009A1AEF /* TouchBarIconExtractManager.m in Sources */,
+				D76245FC240B6802009A1AEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7624609240B6805009A1AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7624612240B6805009A1AEF /* Extract_Touchbar_IconsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7624614240B6805009A1AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D762461D240B6805009A1AEF /* Extract_Touchbar_IconsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D762460F240B6805009A1AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76245F6240B6802009A1AEF /* Extract Touchbar Icons */;
+			targetProxy = D762460E240B6805009A1AEF /* PBXContainerItemProxy */;
+		};
+		D762461A240B6805009A1AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D76245F6240B6802009A1AEF /* Extract Touchbar Icons */;
+			targetProxy = D7624619240B6805009A1AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7624602240B6805009A1AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7624603240B6805009A1AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D762461F240B6805009A1AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7624620240B6805009A1AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7624622240B6805009A1AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Extract Touchbar Icons/Extract_Touchbar_Icons.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Extract Touchbar Icons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-Icons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7624623240B6805009A1AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Extract Touchbar Icons/Extract_Touchbar_Icons.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Extract Touchbar Icons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-Icons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7624625240B6805009A1AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Extract Touchbar IconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-IconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extract Touchbar Icons.app/Contents/MacOS/Extract Touchbar Icons";
+			};
+			name = Debug;
+		};
+		D7624626240B6805009A1AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Extract Touchbar IconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-IconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extract Touchbar Icons.app/Contents/MacOS/Extract Touchbar Icons";
+			};
+			name = Release;
+		};
+		D7624628240B6805009A1AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Extract Touchbar IconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-IconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Extract Touchbar Icons";
+			};
+			name = Debug;
+		};
+		D7624629240B6805009A1AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Extract Touchbar IconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Extract-Touchbar-IconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Extract Touchbar Icons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D76245F2240B6802009A1AEF /* Build configuration list for PBXProject "Extract Touchbar Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D762461F240B6805009A1AEF /* Debug */,
+				D7624620240B6805009A1AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7624621240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7624622240B6805009A1AEF /* Debug */,
+				D7624623240B6805009A1AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7624624240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar IconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7624625240B6805009A1AEF /* Debug */,
+				D7624626240B6805009A1AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7624627240B6805009A1AEF /* Build configuration list for PBXNativeTarget "Extract Touchbar IconsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7624628240B6805009A1AEF /* Debug */,
+				D7624629240B6805009A1AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D76245EF240B6802009A1AEF /* Project object */;
+}
