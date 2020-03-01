@@ -17,6 +17,8 @@
 		D762462B240B682B009A1AEF /* AppleDeveloper.txt in Resources */ = {isa = PBXBuildFile; fileRef = D762462A240B682B009A1AEF /* AppleDeveloper.txt */; };
 		D7624650240B7C23009A1AEF /* TouchBarIconExtractManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D7624652240C21AA009A1AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D7624651240C21AA009A1AEF /* README.md */; };
+		D7624656240C2959009A1AEF /* ExportProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7624654240C2959009A1AEF /* ExportProgressWindowController.m */; };
+		D7624657240C2959009A1AEF /* ExportProgressWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7624655240C2959009A1AEF /* ExportProgressWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,9 @@
 		D762464E240B7C23009A1AEF /* TouchBarIconExtractManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarIconExtractManager.h; sourceTree = "<group>"; };
 		D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBarIconExtractManager.m; sourceTree = "<group>"; };
 		D7624651240C21AA009A1AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		D7624653240C2959009A1AEF /* ExportProgressWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExportProgressWindowController.h; sourceTree = "<group>"; };
+		D7624654240C2959009A1AEF /* ExportProgressWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportProgressWindowController.m; sourceTree = "<group>"; };
+		D7624655240C2959009A1AEF /* ExportProgressWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExportProgressWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 				D76245FE240B6802009A1AEF /* ViewController.m */,
 				D762464E240B7C23009A1AEF /* TouchBarIconExtractManager.h */,
 				D762464F240B7C23009A1AEF /* TouchBarIconExtractManager.m */,
+				D7624658240C2A4D009A1AEF /* ExportProgressWindowController */,
 				D7624600240B6805009A1AEF /* Assets.xcassets */,
 				D762462A240B682B009A1AEF /* AppleDeveloper.txt */,
 				D7624602240B6805009A1AEF /* Main.storyboard */,
@@ -140,6 +146,16 @@
 				D762461E240B6805009A1AEF /* Info.plist */,
 			);
 			path = "Extract Touchbar IconsUITests";
+			sourceTree = "<group>";
+		};
+		D7624658240C2A4D009A1AEF /* ExportProgressWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				D7624653240C2959009A1AEF /* ExportProgressWindowController.h */,
+				D7624654240C2959009A1AEF /* ExportProgressWindowController.m */,
+				D7624655240C2959009A1AEF /* ExportProgressWindowController.xib */,
+			);
+			path = ExportProgressWindowController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7624657240C2959009A1AEF /* ExportProgressWindowController.xib in Resources */,
 				D7624601240B6805009A1AEF /* Assets.xcassets in Resources */,
 				D7624604240B6805009A1AEF /* Main.storyboard in Resources */,
 				D7624652240C21AA009A1AEF /* README.md in Resources */,
@@ -275,6 +292,7 @@
 			files = (
 				D76245FF240B6802009A1AEF /* ViewController.m in Sources */,
 				D7624607240B6805009A1AEF /* main.m in Sources */,
+				D7624656240C2959009A1AEF /* ExportProgressWindowController.m in Sources */,
 				D7624650240B7C23009A1AEF /* TouchBarIconExtractManager.m in Sources */,
 				D76245FC240B6802009A1AEF /* AppDelegate.m in Sources */,
 			);

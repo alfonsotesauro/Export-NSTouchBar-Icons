@@ -8,11 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 #import "TouchBarIconExtractManager.h"
+#import "ExportProgressWindowController.h"
 
 @interface ViewController : NSViewController <NSTableViewDataSource,NSTableViewDelegate>
 
 @property (strong) NSMutableArray   *touchBarImagesArray;
 @property (weak) IBOutlet NSTableView   *tableView;
+@property (strong) ExportProgressWindowController   *exportProgressWindowController;
 
 @end
 

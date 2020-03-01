@@ -81,6 +81,14 @@
         
         if (result == NSModalResponseOK) {
             NSString *path = panel.URL.path;
+         
+            if (self.exportProgressWindowController == nil) {
+                self.exportProgressWindowController = [[ExportProgressWindowController alloc] init];
+            }
+            
+            [self.view.window beginSheet:self.exportProgressWindowController.window completionHandler:^(NSModalResponse returnCode) {
+                
+            }];
             
             dispatch_queue_t backgroundQueue =
             dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0);
@@ -91,12 +99,26 @@
               
                 dispatch_async(dispatch_get_main_queue(), ^{
                     // Return Result
+                    [self.view.window endSheet:self.exportProgressWindowController.window];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+
                     NSAlert *alert = [NSAlert new];
                     alert.messageText = @"Extract TouchBar Icons Message";
                     alert.informativeText = @"The image has been correctly exported.";
+                    NSButton *shouldRevealButton = [[NSButton alloc] initWithFrame:NSMakeRect(0,0,230,40)];
+                    [shouldRevealButton setButtonType:NSButtonTypeSwitch];
+                    shouldRevealButton.title = @"Reveal the extracted file in Finder";
+                    alert.accessoryView = shouldRevealButton;
+                        
                     [alert beginSheetModalForWindow:self.view.window completionHandler:^(NSModalResponse returnCode) {
                         
+                        if (shouldRevealButton.state == NSControlStateValueOn) {
+                            [[NSWorkspace sharedWorkspace] activateFileViewerSelectingURLs:@[[NSURL fileURLWithPath:path]]];
+                        }
+                        
                     }];
+                    
+                });
                     
                 });
             });
